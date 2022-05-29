@@ -11,9 +11,9 @@ public class Leapyear {
 		if ( n % 4 == 0 && n > 999)
 			System.out.println(n+" is leap year");
 		else if(n % 4 != 0 && n > 999)
-			System.out.println(n+" is not leap year");
+			System.out.println(n+ " is not leap year");
 		else
-			System.out.println("error! you not enter 4 digit no");
+			System.out.println("error! please enter 4 digit no");
 	}
 
 }
